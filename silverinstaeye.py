@@ -264,7 +264,7 @@ def dorkla_melumat_topla(hedef_istifadeci):
         links = [url for url in search(google_dork, num_results=10, unique=True) if "https://www.instagram.com/" in url]
 
         if not links:
-            print("[!] Heç bir nəticə tapılmadı.")
+            print("[!] No results found.")
             return
 
         fayl_adi = f"{hedef_istifadeci}_dork_links.txt"
